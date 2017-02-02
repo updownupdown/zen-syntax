@@ -1,0 +1,15 @@
+{
+  "name": "zen-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A pleasant light theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/updownupdown/zen-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
