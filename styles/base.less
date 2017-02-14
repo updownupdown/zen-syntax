@@ -382,10 +382,47 @@ atom-text-editor[mini] .scroll-view {
 // JS
 .syntax--js{
 
-   &.syntax--entity.syntax--name.syntax--function{
+   &.syntax--variable{
+      color:@blue;
+   }
+
+   &.syntax--support.syntax--function.syntax--console,
+   &.syntax--entity.syntax--name.syntax--console{
+      color:@pink;
+      text-decoration:none;
+   }
+
+   &.syntax--storage{
       color:@red;
    }
+
+   &.syntax--support{
+      color:@dark-gray;
+   }
+
+   &.syntax--punctuation.syntax--definition.syntax--arguments,
+   &.syntax--entity.syntax--name.syntax--function{
+      color:@dark-gray;
+   }
+
+   &.syntax--keyword.syntax--control{
+      color:@red;
+   }
+
+   &.syntax--function{
+      color:@blue;
+   }
+
+   &.syntax--function-call .syntax--entity.syntax--name.syntax--function{
+      color:@red;
+   }
+
+   &.syntax--punctuation.syntax--definition,
+   &.syntax--constant{
+      color:@light-gray;
+   }
 }
+
 
 
 // Atom
